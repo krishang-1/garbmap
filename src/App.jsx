@@ -102,7 +102,7 @@ function App() {
   return (
     <div style={{ height: '100vh', width: '100vw', display: 'flex', background: '#000' }}>
       
-      {/* 📊 SIDEBAR */}
+      {/* SIDEBAR */}
       <aside style={{ 
         width: '320px', height: '100%', background: '#1a1a1a', 
         color: 'white', padding: '40px 25px', zIndex: 2000, 
@@ -119,7 +119,7 @@ function App() {
         <StatItem label="Cleaned" val={stats.cleaned} color="#4CAF50" />
       </aside>
 
-      {/* 🗺️ THE MAP (Absolute Fixed) */}
+      {/* THE MAP */}
       <div style={{ position: 'relative', flexGrow: 1, height: '100%' }}>
         <MapContainer 
           center={[12.823, 80.044]} zoom={15} 
